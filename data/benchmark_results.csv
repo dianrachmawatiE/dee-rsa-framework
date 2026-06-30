@@ -1,0 +1,5 @@
+Variant,KeySize_Bits,Trials,KeyGen_ms_mean,KeyGen_ms_std,KeyGen_ms_CI95,Encrypt_ms_mean,Encrypt_ms_std,Encrypt_ms_CI95,Decrypt_ms_mean,Decrypt_ms_std,Decrypt_ms_CI95,Throughput_ops_per_sec
+Classical RSA,1024,10,312.6679,120.6047,74.7515,0.0565,0.0092,0.0057,3.9462,0.3572,0.2214,253.41
+Multi-Prime RSA (3),1024,10,123.3867,48.9827,30.3598,0.0612,0.0089,0.0055,1.1386,0.1563,0.0969,878.29
+Rebalanced RSA,1024,10,2598.4343,2693.1923,1669.2579,4.0226,0.4105,0.2544,1.6022,0.2484,0.1540,624.12
+XRSA (4-Prime),1024,10,370.4950,144.6108,89.6307,4.2526,0.4368,0.2707,4.9158,5.2064,3.2269,203.43

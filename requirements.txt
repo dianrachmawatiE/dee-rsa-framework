@@ -1,0 +1,16 @@
+# DEE-RSA Benchmarking Dependencies
+# Python 3.9+ required
+
+# Core dependencies (stdlib only — no external cryptographic libraries)
+# All RSA implementations in src/ use Python standard library
+
+# Optional: For enhanced statistical analysis and visualization
+matplotlib>=3.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional: For Docker-based reproducibility
+# docker>=6.0.0
+
+# Optional: For report generation
+# jinja2>=3.0.0

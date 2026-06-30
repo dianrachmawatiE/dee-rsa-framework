@@ -1,0 +1,7 @@
+Variant,KeySize_Bits,Encrypt_ms,Decrypt_ms,KeyGen_ms
+Classical RSA,1024,0.42,14.52,574.23
+Classical RSA,2048,3.05,28.14,1204.23
+Classical RSA,4096,12.42,106.32,8421.56
+XRSA (4-Prime),1024,0.45,2.31,489.12
+XRSA (4-Prime),2048,3.42,8.72,892.47
+XRSA (4-Prime),4096,13.81,35.44,6210.85

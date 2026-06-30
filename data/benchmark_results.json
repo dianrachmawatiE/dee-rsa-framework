@@ -1,0 +1,62 @@
+{
+  "Classical RSA": {
+    "1024": {
+      "keygen_ms_mean": 312.66788999996606,
+      "keygen_ms_std": 120.60466150251784,
+      "keygen_ms_ci95": 74.75154364918997,
+      "encrypt_ms_mean": 0.056513999995786435,
+      "encrypt_ms_std": 0.00920476930804238,
+      "encrypt_ms_ci95": 0.005705175124565889,
+      "decrypt_ms_mean": 3.9461589999768876,
+      "decrypt_ms_std": 0.35722630889590323,
+      "decrypt_ms_ci95": 0.221411160144201,
+      "throughput_ops_per_sec": 253.41097507876822,
+      "trials": 10
+    }
+  },
+  "Multi-Prime RSA (3)": {
+    "1024": {
+      "keygen_ms_mean": 123.3866999999691,
+      "keygen_ms_std": 48.98272640818679,
+      "keygen_ms_ci95": 30.359808365130768,
+      "encrypt_ms_mean": 0.061180999985026574,
+      "encrypt_ms_std": 0.008933554105945034,
+      "encrypt_ms_ci95": 0.005537074200726554,
+      "decrypt_ms_mean": 1.1385719999975663,
+      "decrypt_ms_std": 0.15626577602755978,
+      "decrypt_ms_ci95": 0.09685453142584223,
+      "throughput_ops_per_sec": 878.2931602060629,
+      "trials": 10
+    }
+  },
+  "Rebalanced RSA": {
+    "1024": {
+      "keygen_ms_mean": 2598.434310000016,
+      "keygen_ms_std": 2693.192252319853,
+      "keygen_ms_ci95": 1669.2578520337279,
+      "encrypt_ms_mean": 4.02260699999033,
+      "encrypt_ms_std": 0.41047855661749505,
+      "encrypt_ms_ci95": 0.25441724523565445,
+      "decrypt_ms_mean": 1.6022480000151518,
+      "decrypt_ms_std": 0.24843943994782053,
+      "decrypt_ms_ci95": 0.15398436020694034,
+      "throughput_ops_per_sec": 624.1231070287143,
+      "trials": 10
+    }
+  },
+  "XRSA (4-Prime)": {
+    "1024": {
+      "keygen_ms_mean": 370.4949600000191,
+      "keygen_ms_std": 144.6108099129009,
+      "keygen_ms_ci95": 89.6307085868588,
+      "encrypt_ms_mean": 4.252589000006992,
+      "encrypt_ms_std": 0.43679811543882135,
+      "encrypt_ms_ci95": 0.2707302768013434,
+      "decrypt_ms_mean": 4.915766999997686,
+      "decrypt_ms_std": 5.206354458081528,
+      "decrypt_ms_ci95": 3.226931925167016,
+      "throughput_ops_per_sec": 203.42705421157487,
+      "trials": 10
+    }
+  }
+}
