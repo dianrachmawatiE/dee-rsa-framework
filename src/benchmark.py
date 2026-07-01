@@ -24,7 +24,7 @@ from statistics import mean, stdev
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.rsa_variants import (
-    ClassicalRSA, MultiPrimeRSA, RebalancedRSA, XRSA
+    ClassicalRSA, MultiPrimeRSA, RebalancedRSA, XRSA, TakagiRSA
 )
 from src.utils import generate_random_message
 
@@ -83,6 +83,7 @@ class DEEBenchmark:
             "Multi-Prime RSA (3)": MultiPrimeRSA,
             "Rebalanced RSA": RebalancedRSA,
             "XRSA (4-Prime)": XRSA,
+            "Takagi RSA (p^2 q)": TakagiRSA,
         }
 
         for name, variant_cls in variants.items():
